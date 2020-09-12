@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/grphm/static/css/main.aeb76d05.chunk.css",
+    "main.js": "/grphm/static/js/main.dccddb71.chunk.js",
+    "main.js.map": "/grphm/static/js/main.dccddb71.chunk.js.map",
+    "runtime-main.js": "/grphm/static/js/runtime-main.3b7d2112.js",
+    "runtime-main.js.map": "/grphm/static/js/runtime-main.3b7d2112.js.map",
+    "static/js/2.2ed7418d.chunk.js": "/grphm/static/js/2.2ed7418d.chunk.js",
+    "static/js/2.2ed7418d.chunk.js.map": "/grphm/static/js/2.2ed7418d.chunk.js.map",
+    "index.html": "/grphm/index.html",
+    "precache-manifest.0c66263bf4f1267f54cca21014a78003.js": "/grphm/precache-manifest.0c66263bf4f1267f54cca21014a78003.js",
+    "service-worker.js": "/grphm/service-worker.js",
+    "static/css/main.aeb76d05.chunk.css.map": "/grphm/static/css/main.aeb76d05.chunk.css.map",
+    "static/js/2.2ed7418d.chunk.js.LICENSE.txt": "/grphm/static/js/2.2ed7418d.chunk.js.LICENSE.txt",
+    "static/media/App.sass": "/grphm/static/media/arrow.646e4ddd.svg",
+    "static/media/index.css": "/grphm/static/media/helveticaneue_thin-webfont.e3d98d2d.woff2",
+    "static/media/logo.svg": "/grphm/static/media/logo.890a3279.svg",
+    "static/media/verified.svg": "/grphm/static/media/verified.33b1d305.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b7d2112.js",
+    "static/js/2.2ed7418d.chunk.js",
+    "static/css/main.aeb76d05.chunk.css",
+    "static/js/main.dccddb71.chunk.js"
+  ]
+}
