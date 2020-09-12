@@ -1,0 +1,153 @@
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  background: #F7F8FF
+  color: #101D94
+  font-size: 16px
+  line-height: 18px
+
+  h3
+    font-size: 26px
+    line-height: 31px
+    font-weight: normal
+    margin: 33px 0 20px
+    letter-spacing: -0.5px
+    @media(max-width: 480px)
+      font-size: 22px
+  
+.header
+  background: #fff
+  box-shadow: 0px 0px 10px #EBF0FF
+
+  &__wrapper
+    max-width: 1280px
+    width: 100%
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 22px 20px
+
+  &__title
+    font-size: 34px
+    line-height: 41px
+    color: #000000
+    @media(max-width: 480px)
+      font-size: 24px
+
+  &__logo
+
+.content
+  padding: 50px 0 0
+
+.card
+  width: 401px
+  min-height: 520px
+  margin: 0 auto
+  box-shadow: 0px 0px 10px #EBF0FF
+  background: #fff
+  border-radius: 24px
+  padding: 20px 40px
+  @media(max-width: 480px)
+    width: 100%
+
+  &__pagination
+    color: #979797
+    font-size: 12px
+    line-height: 14px
+
+    span
+      position: relative
+
+      &:first-child
+        padding: 0 40px 0 0
+
+        &:after
+          width: 10px
+          height: 19px
+          background: url(./imgs/arrow.svg) no-repeat
+          background-size: cover
+          content: ""
+          display: inline-block
+          position: absolute
+          top: -2px
+          right: 15px
+
+      &.active
+        color: #101D94
+
+  &--firstStep
+    .card__pagination
+      span:first-child
+        color: #101D94
+
+  &--secondStep
+    .card__pagination
+      span:last-child
+        color: #101D94
+
+  &--thirdStep
+    display: flex
+    flex-direction: column
+    justify-content: center
+    
+    .card__pagination
+      display: none
+
+  label
+    > div
+      padding: 0 0 10px
+    p
+      margin: 10px 0 5px
+      
+      &.--double-margin
+        margin: 20px 0 5px
+
+  .form
+
+    input[type='text']
+      padding: 11px 14px
+
+    &__carddate
+      width: 30.3%
+      float: left
+      margin-right: 30px
+
+    &__cardcvv
+      width: 29.3%
+      float: left
+
+    &__country
+      width: 63%
+      padding: 0 20px 0 0
+      float: left
+
+    &__zip
+      width: 37%
+      float: right
+
+    &__button
+      color: #ffffff
+      box-shadow: none !important
+      background: #41b94d !important
+      margin: 18px 0 0
+      padding: 10px 0
+      font-weight: bold
+      text-transform: none
+      text-align: center
+      min-width: 180px
+
+    .MuiAutocomplete-inputRoot
+      padding: 0 9px
+
+  .confirm
+    text-align: center
+
+    h3
+      margin: 5px 0 0
+      font-weight: 300
+      color: #000
